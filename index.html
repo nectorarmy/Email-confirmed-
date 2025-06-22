@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Confirmed</title>
+  <style>
+    /* Reset & Fonts */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      background: linear-gradient(135deg, #ffffff, #b216d5);
+    }
+
+    /* Centering Container */
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Card Styling */
+    .card {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
+      width: 90%;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+
+    /* Icon */
+    .icon {
+      font-size: 48px;
+      color: #b216d5;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      text-decoration: none;
+      background: #b216d5;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #9200b0;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="icon">✅</div>
+      <h1>Email Confirmed</h1>
+      <p>Your email has been successfully verified.</p>
+      <a href="/" class="btn">Continue</a>
+    </div>
+  </div>
+</body>
+</html>
